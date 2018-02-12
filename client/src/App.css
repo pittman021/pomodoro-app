@@ -1,0 +1,102 @@
+.App {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.tasks {
+  text-align: center;
+}
+
+.input {
+  height: 75px;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: none;
+}
+
+.timer {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 90%;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.stats {
+  text-align: center;
+}
+
+.timer button {
+  width: 200px;
+  height: 75px;
+}
+
+.timer-time {
+  margin-bottom: 25px;
+}
+
+.minutes {
+  margin-right: 10px;
+}
+
+li.box {
+  padding: 0.5em;
+  transition: all 0.1s ease-in-out;
+}
+
+li.box:hover {
+  transform: scale(1.025);
+}
+
+li.box:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+.task-list {
+  width: 75%;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+.timer button {
+  margin: 10px 10px;
+  font-weight: 700px;
+}
+
+.panel-block i {
+  padding-left: 10px;
+}
+
+.panel-block .pull-right {
+  width: 15%;
+}
+
+.panel-block .pull-left {
+  width: 85%;
+  text-align: left;
+}
+
+.open-task-list {
+  margin-bottom: 5px;
+}
+
+.red {
+  color: red !important;
+}
+
+.blue {
+  color: #1496ed;
+}
+
+.pull-left i {
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+i.fa {
+  color: black;
+}
+
+.panel-tabs:first-child {
+  border: none;
+}
